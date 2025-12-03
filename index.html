@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romain Miegemolle | Développeur Web & Applications</title>
+    
+    <meta name="description" content="Portfolio de Romain Miegemolle, étudiant en BUT Informatique. Projets PHP, Java, Web et Logiciel.">
+    
+    <link rel="icon" type="image/png" href="assets/img/favicon-96x96.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">RM.</a>
+            
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#aPropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact" class="btn-nav">Me contacter</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero-content reveal">
+            <p class="subtitle">Bonjour, je suis</p>
+            <h1>Romain Miegemolle</h1>
+            <p class="role">Étudiant en BUT Informatique <br> Spécialisé en développement Web & App</p>
+            
+            <div class="cta-group">
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                <a href="assets/docs/CV_MIEGEMOLLE_Romain.pdf" target="_blank" class="btn btn-outline">Télécharger mon CV</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="aPropos" class="section-light">
+            <div class="container reveal">
+                <h2 class="section-title">À propos</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            Actuellement en troisième année de BUT Informatique, je suis passionné par la conception d'architectures logicielles et le développement web.
+                        </p>
+                        <p>
+                            Mon objectif est de concevoir des applications robustes et intuitives. Je suis à la recherche d'un <strong>stage de 16 semaines</strong> à partir du <strong>2 mars 2025</strong> pour valider mon diplôme et évoluer vers un Bac+5.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="section-dark">
+            <div class="container">
+                <h2 class="section-title reveal">Mes Projets</h2>
+                
+                <div class="projects-grid">
+                    
+                    <article class="project-card reveal">
+                        <div class="card-image">
+                            <img src="assets/img/projets/imgBBCTalk2.png" alt="Interface de BBC Talk">
+                        </div>
+                        <div class="card-content">
+                            <h3>BBC Talk</h3>
+                            <div class="tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <p>Application de chat en ligne avec gestion sécurisée des utilisateurs, affichage dynamique et interface épurée.</p>
+                            <div class="card-actions">
+                                <a href="http://bbc-talk.great-site.net/" target="_blank" class="link-demo">Voir le site</a>
+                                <a href="https://github.com/rofflamincode" target="_blank" class="link-code">Code GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="card-image">
+                            <img src="assets/img/projets/imgVolleyMaster.png" alt="Interface VolleyMaster">
+                        </div>
+                        <div class="card-content">
+                            <h3>VolleyMaster</h3>
+                            <div class="tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                            <p>Outil de gestion d’équipe sportive : suivi des joueurs, statistiques et historique des matchs.</p>
+                            <div class="card-actions">
+                                <a href="http://volleymaster.infinityfreeapp.com" target="_blank" class="link-demo">Voir le site</a>
+                                <a href="#" class="link-code">Code GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="section-light">
+            <div class="container reveal">
+                <h2 class="section-title">Compétences Techniques</h2>
+                
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item"><i class="devicon-html5-plain colored"></i> HTML5</div>
+                            <div class="skill-item"><i class="devicon-css3-plain colored"></i> CSS3</div>
+                            <div class="skill-item"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+                            <div class="skill-item"><i class="devicon-react-original colored"></i> React Native</div>
+                            <div class="skill-item"><i class="devicon-flutter-plain colored"></i> Flutter</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item"><i class="devicon-php-plain colored"></i> PHP</div>
+                            <div class="skill-item"><i class="devicon-java-plain colored"></i> Java</div>
+                            <div class="skill-item"><i class="devicon-python-plain colored"></i> Python</div>
+                            <div class="skill-item"><i class="devicon-c-plain colored"></i> C</div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Outils</h3>
+                        <div class="skill-list">
+                            <div class="skill-item"><i class="devicon-git-plain colored"></i> Git</div>
+                            <div class="skill-item"><i class="devicon-github-original colored"></i> GitHub</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-dark contact-section reveal">
+            <div class="container">
+                <h2 class="section-title">Me Contacter</h2>
+                <p class="contact-intro">Un projet ? Une opportunité de stage ? Envoyez-moi un message.</p>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Votre Nom</label>
+                        <input type="text" id="name" name="name" placeholder="Jean Dupont" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Votre Email</label>
+                        <input type="email" id="email" name="email" placeholder="jean@exemple.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Bonjour Romain, je vous contacte pour..." required></textarea>
+                    </div>
+
+                    <button type="submit" id="btn-submit" class="btn btn-primary btn-submit">Envoyer le message</button>
+                </form>
+
+                <div class="social-links-footer">
+                    <p>Ou retrouvez-moi sur :</p>
+                    <a href="https://github.com/rofflamincode" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Romain Miegemolle. Tous droits réservés.</p>
+        <p style="font-size: 0.8rem; opacity: 0.6; margin-top: 5px;">Développé avec ❤️</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

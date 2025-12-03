@@ -1,0 +1,3 @@
+Principale : #355834
+Secondaire : #FAFFFD
+Accent : #B497D6
