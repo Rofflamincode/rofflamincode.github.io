@@ -179,7 +179,10 @@ header h1 {
     color: white;
     margin-left: 1rem;
 }
-
+footer{
+    display: flex;
+    justify-content: center;
+}
 /* --- COMPÉTENCES --- */
 .skills-grid-custom {
     display: grid;
